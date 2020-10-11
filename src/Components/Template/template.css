@@ -1,0 +1,152 @@
+.grid {
+    --container-width: 100%;
+}
+
+.grid {
+    display: grid;
+    height: 768px;
+    box-sizing: border-box;
+    width: var(--container-width);
+    grid-template-columns: 42.45% 28.77% 28.77%;
+}
+
+.element1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: rgba(191, 138, 116, 0.4);
+    z-index: 2;
+}
+
+.element1 h4 {
+    margin: 1.25rem 0 0 2.5rem;
+    font-size: 1rem;
+}
+
+.element2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.middle-image {
+    width: 426.49px;
+    height: 597.31px;
+    object-fit: cover;
+    position: absolute;
+    margin-left: -5.5rem;
+    z-index: 4;
+}
+
+.element3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    justify-self: center;
+}
+
+.right-image {
+    width: 205.27px;
+    height: 259.51px;
+    object-fit: cover;
+    opacity: 0.3;
+    
+}
+
+.element4 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    z-index: 10;
+    margin-right: -1.5%;
+}
+
+.element4 h1 {
+    font-size: 135px;
+    font-family: Tungsten;
+    font-weight: bold;
+    margin-top: -3.3rem;
+    margin-bottom: 0;
+    line-height: 0.95em;
+    text-align: right;
+}
+
+.element4 h1 .outline-h1 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    color: rgba(255, 0, 0, 0);
+}
+
+.element4 p {
+    text-align: right;
+    font-size: 9px;
+}
+
+.element5 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.element6 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.element6 p {
+    text-align: right;
+    margin-right: 30%;
+    font-size: 9px;
+}
+
+.element6 div:first-child {
+    margin-top: 40%;
+}
+
+.element6 p:nth-of-type(3) {
+    margin-top: 1.875rem;
+}
+
+.element7 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.down-image {
+    width: 326px;
+    height: 326px;
+    object-fit: none;
+    border-radius: 50%;
+    margin-top: -3.5rem;
+    z-index: 2;
+}
+
+.element8 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin-left: 10%;
+}
+
+.element8 .border {
+    width: 100px;
+    margin-top: 70%;
+    border-bottom: solid 4px #be8a74;
+}
+
+.element9 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+.element9 .have-a-look-btn {
+    color: white;
+    font-family: Tungsten semibold;
+    font-size: 13px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 16%;
+    margin-left: 55%;
+    outline: 0;
+}
+
+.element9 .have-a-look-btn span {
+    margin-left: 0.625rem;
+}
