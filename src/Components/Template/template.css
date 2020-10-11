@@ -4,8 +4,7 @@
 
 .grid {
     display: grid;
-    height: 768px;
-    box-sizing: border-box;
+    height: 100vh;
     width: var(--container-width);
     grid-template-columns: 42.45% 28.77% 28.77%;
 }
@@ -30,8 +29,8 @@
 }
 
 .middle-image {
-    width: 426.49px;
-    height: 597.31px;
+    width: 26.655rem;
+    height: 37.331rem;
     object-fit: cover;
     position: absolute;
     margin-left: -5.5rem;
@@ -45,11 +44,10 @@
 }
 
 .right-image {
-    width: 205.27px;
-    height: 259.51px;
+    width: 12.829rem;
+    height: 16.219rem;
     object-fit: cover;
     opacity: 0.3;
-    
 }
 
 .element4 {
@@ -60,7 +58,7 @@
 }
 
 .element4 h1 {
-    font-size: 135px;
+    font-size: 8.43rem;
     font-family: Tungsten;
     font-weight: bold;
     margin-top: -3.3rem;
@@ -77,7 +75,7 @@
 
 .element4 p {
     text-align: right;
-    font-size: 9px;
+    font-size: 0.562rem;
 }
 
 .element5 {
@@ -93,7 +91,7 @@
 .element6 p {
     text-align: right;
     margin-right: 30%;
-    font-size: 9px;
+    font-size: 0.562rem;
 }
 
 .element6 div:first-child {
@@ -110,8 +108,8 @@
 }
 
 .down-image {
-    width: 326px;
-    height: 326px;
+    width: 20.375rem;
+    height: 20.375rem;
     object-fit: none;
     border-radius: 50%;
     margin-top: -3.5rem;
@@ -138,7 +136,7 @@
 .element9 .have-a-look-btn {
     color: white;
     font-family: Tungsten semibold;
-    font-size: 13px;
+    font-size: 0.812rem;
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -150,3 +148,4 @@
 .element9 .have-a-look-btn span {
     margin-left: 0.625rem;
 }
+
