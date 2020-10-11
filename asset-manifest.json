@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/aquest-challenge/static/css/main.709e2a1a.chunk.css",
+    "main.js": "/aquest-challenge/static/js/main.f429a6cc.chunk.js",
+    "main.js.map": "/aquest-challenge/static/js/main.f429a6cc.chunk.js.map",
+    "runtime-main.js": "/aquest-challenge/static/js/runtime-main.35e81936.js",
+    "runtime-main.js.map": "/aquest-challenge/static/js/runtime-main.35e81936.js.map",
+    "static/js/2.b9749d1d.chunk.js": "/aquest-challenge/static/js/2.b9749d1d.chunk.js",
+    "static/js/2.b9749d1d.chunk.js.map": "/aquest-challenge/static/js/2.b9749d1d.chunk.js.map",
+    "index.html": "/aquest-challenge/index.html",
+    "precache-manifest.822b4f9de40b3c412157f855c09c5f9e.js": "/aquest-challenge/precache-manifest.822b4f9de40b3c412157f855c09c5f9e.js",
+    "service-worker.js": "/aquest-challenge/service-worker.js",
+    "static/css/main.709e2a1a.chunk.css.map": "/aquest-challenge/static/css/main.709e2a1a.chunk.css.map",
+    "static/js/2.b9749d1d.chunk.js.LICENSE.txt": "/aquest-challenge/static/js/2.b9749d1d.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/aquest-challenge/static/media/Tungsten-Semibold.8e2353fa.otf",
+    "static/media/kevin-laminto.jpg": "/aquest-challenge/static/media/kevin-laminto.afc3c54a.jpg",
+    "static/media/nicole-honeywill.jpg": "/aquest-challenge/static/media/nicole-honeywill.220e0a00.jpg",
+    "static/media/oladimeji-odunsi.jpg": "/aquest-challenge/static/media/oladimeji-odunsi.eac6ccf1.jpg",
+    "static/media/pamela-lima.jpg": "/aquest-challenge/static/media/pamela-lima.1c090136.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.35e81936.js",
+    "static/js/2.b9749d1d.chunk.js",
+    "static/css/main.709e2a1a.chunk.css",
+    "static/js/main.f429a6cc.chunk.js"
+  ]
+}
